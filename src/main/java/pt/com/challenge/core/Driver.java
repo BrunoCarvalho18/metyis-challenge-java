@@ -31,7 +31,7 @@ public class Driver {
 	public static WebDriver getDriver() {
 
 		
-        // set up for windows
+               // set up for windows
 		if (isWindows()) {
 			System.setProperty("webdriver.chrome.driver",
 				    System.getProperty("user.dir") + "/src/main/resources/webdriver/chromedriver.exe");
@@ -54,7 +54,7 @@ public class Driver {
 
 	}
 	
-    // quit driver
+        // quit driver
 	public static WebDriver encerraDriver() {
 		if (driver != null) {
 			driver.quit();
