@@ -27,3 +27,7 @@
 6. In the link https://chromedriver.chromium.org/downloads Download the right version
 7. Change in folder src/main/resources/webdriver, the webdriver.
 
+## :smile: Results
+
+<img width="1210" alt="Screenshot 2023-03-05 at 17 48 08" src="https://user-images.githubusercontent.com/32099971/222977102-5200cb7c-3cb9-4675-997e-ee6c5de40b60.png">
+
