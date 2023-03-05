@@ -14,3 +14,5 @@
 
 ## 🔤 **Design Patterns**
 
+- Page Factory
+
