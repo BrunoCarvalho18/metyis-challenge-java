@@ -11,6 +11,7 @@
 
 - Java
 - Selenium
+- Cucumber
 
 ## 🔤 **Design Pattern**
 
