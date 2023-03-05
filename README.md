@@ -29,6 +29,8 @@
 
 ## :smile: Results
 
-1. Mac
-<img width="1210" alt="Screenshot 2023-03-05 at 17 48 08" src="https://user-images.githubusercontent.com/32099971/222977102-5200cb7c-3cb9-4675-997e-ee6c5de40b60.png">
+1. Windows
 ![Screenshot 2023-03-05 175241](https://user-images.githubusercontent.com/32099971/222977455-ff4f779b-04f6-411a-a38b-e0c035fc7749.jpg)
+
+2. Mac
+<img width="1210" alt="Screenshot 2023-03-05 at 17 48 08" src="https://user-images.githubusercontent.com/32099971/222977102-5200cb7c-3cb9-4675-997e-ee6c5de40b60.png"
