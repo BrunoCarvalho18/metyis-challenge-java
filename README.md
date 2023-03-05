@@ -32,5 +32,6 @@
 1. Mac
 <img width="1210" alt="Screenshot 2023-03-05 at 17 48 08" src="https://user-images.githubusercontent.com/32099971/222977102-5200cb7c-3cb9-4675-997e-ee6c5de40b60.png">
 2. Windows
- https://user-images.githubusercontent.com/32099971/222977344-7795ec34-b89f-4e57-b386-964a81e010ee.jpg
+<img width="1210" alt="Screenshot 2023-03-05 at 17 48 08" src="https://user-images.githubusercontent.com/32099971/222977344-7795ec34-b89f-4e57-b386-964a81e010ee.jp">
+
 
