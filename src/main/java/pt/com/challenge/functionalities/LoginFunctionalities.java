@@ -3,6 +3,7 @@ package pt.com.challenge.functionalities;
 import org.openqa.selenium.By;
 import pt.com.challenge.pages.LoginPage;
 
+//Actions and Functionalities
 public class LoginFunctionalities {
 
 	private LoginPage loginPage;

@@ -7,6 +7,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pt.com.challenge.functionalities.LoginFunctionalities;
 
+// Cucumber steps
 public class LoginInvalidSteps {
 	
 	LoginFunctionalities loginFunctionalities = new LoginFunctionalities();

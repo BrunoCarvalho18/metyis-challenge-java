@@ -6,6 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 import pt.com.challenge.core.BasePage;
 import pt.com.challenge.core.Driver;
 
+//LoginPage
 public class LoginPage extends BasePage {
 
 	public LoginPage() {
@@ -30,6 +31,9 @@ public class LoginPage extends BasePage {
 	@FindBy(css = "p[class='MuiFormHelperText-root MuiFormHelperText-contained Mui-error MuiFormHelperText-filled']")
 	WebElement txtHelperLogin;
 	
+	@FindBy(css = "span[class='header__link_NElNw account__icon_2qLVr header__link--name_21Pi_']")
+	WebElement logoLogin;
+	
 	public WebElement getTxtHelperLogin() {
 		return txtHelperLogin;
 	}
@@ -45,10 +49,6 @@ public class LoginPage extends BasePage {
 	public void setLogoLogin(WebElement logoLogin) {
 		this.logoLogin = logoLogin;
 	}
-
-	@FindBy(css = "span[class='header__link_NElNw account__icon_2qLVr header__link--name_21Pi_']")
-	WebElement logoLogin;
-
 
 	public WebElement getFieldEmail() {
 		return fieldEmail;
