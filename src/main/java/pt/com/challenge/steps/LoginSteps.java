@@ -24,7 +24,7 @@ public class LoginSteps {
 	public void i_would_like_to_do_a_login() throws InterruptedException {
 		loginFunctionalities.clickCookies();
 		loginFunctionalities.clickNavBar();
-		loginFunctionalities.waitForElementVisible();
+		loginFunctionalities.waitForElementVisibleSiginEmail();
 		loginFunctionalities.writeEmail("brunocarvalhodesa@gmail.com");
 		loginFunctionalities.writePassword("Yeovah@123");
 		loginFunctionalities.clickButtonRegister();

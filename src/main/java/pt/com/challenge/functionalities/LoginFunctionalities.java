@@ -22,6 +22,10 @@ public class LoginFunctionalities {
 	public void clickNavBar() {
 		loginPage.getNavBar().click();
 	}
+	
+	public void waitForElementVisibleSiginEmail() {
+		loginPage.waitForElementPresent(By.id("signin-email"));
+	}
 
 	public void writeEmail(String email) {
        loginPage.getFieldEmail().sendKeys(email);
@@ -31,8 +35,8 @@ public class LoginFunctionalities {
 	   loginPage.getFieldPassword().sendKeys(password);
 	}
 	
-	public void waitForElementVisible() {
-		loginPage.waitForElementPresent(By.id("signin-email"));
+	public void waitForElementVisibleNavBar() {
+		loginPage.waitForElementPresent(By.xpath("//*[contains(text(),'Aanmelden / Registreren')]"));
 	}
 	
 	public String returnLogoLogin() {
