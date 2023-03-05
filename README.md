@@ -20,4 +20,5 @@
 ## :octocat: Run Code
 
 1. Download de project 
+2. Git clone https://github.com/BrunoCarvalho18/metyis-challenge-java.git
 
