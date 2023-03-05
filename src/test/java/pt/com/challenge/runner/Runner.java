@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(glue = { "pt.com.challenge.steps" }, features = {
-		"src/main/resources" },tags =  "@login-valid")
+		"src/main/resources" },tags =  "@general")
 public class Runner {
 	
 	@AfterClass

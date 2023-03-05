@@ -3,7 +3,6 @@ package pt.com.challenge.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import pt.com.challenge.core.BasePage;
 import pt.com.challenge.core.Driver;
 
@@ -28,6 +27,17 @@ public class LoginPage extends BasePage {
 	@FindBy(id = "signin-password")
 	WebElement fieldPassword;
 	
+	@FindBy(css = "p[class='MuiFormHelperText-root MuiFormHelperText-contained Mui-error MuiFormHelperText-filled']")
+	WebElement txtHelperLogin;
+	
+	public WebElement getTxtHelperLogin() {
+		return txtHelperLogin;
+	}
+
+	public void setTxtHelperLogin(WebElement txtHelperLogin) {
+		this.txtHelperLogin = txtHelperLogin;
+	}
+
 	public WebElement getLogoLogin() {
 		return logoLogin;
 	}

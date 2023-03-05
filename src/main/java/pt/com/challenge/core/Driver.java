@@ -34,12 +34,10 @@ public class Driver {
 		if (isWindows()) {
 			System.setProperty("webdriver.chrome.driver",
 				    System.getProperty("user.dir") + "/src/main/resources/webdriver/chromedriver.exe");
-			System.out.println("This is Windows");
 		}
 		
 		// set up for macbook
-		if (isMac()) {
-			System.out.println("This is Mac");
+		if (isMac()){
 			System.setProperty("webdriver.chrome.driver", "/opt/homebrew/bin/chromedriver");
 		}
 

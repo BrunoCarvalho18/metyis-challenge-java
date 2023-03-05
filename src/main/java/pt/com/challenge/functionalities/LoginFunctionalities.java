@@ -40,5 +40,9 @@ public class LoginFunctionalities {
 		
 	}
 	
+	public String returnTxtHelperEmail() {
+		return loginPage.getTxtHelperLogin().getText();
+	}
+	
 
 }
