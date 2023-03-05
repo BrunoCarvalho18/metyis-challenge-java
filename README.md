@@ -7,3 +7,8 @@
   About Automation 🚀 
 </h2>
 
+## :blush: **Tecnologies**
+
+- Java
+- Selenium
+
