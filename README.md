@@ -18,3 +18,5 @@
 
 ## :octocat: Run Code
 
+1. Download de project 
+
