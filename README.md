@@ -21,4 +21,7 @@
 
 1. Download de project 
 2. Git clone https://github.com/BrunoCarvalho18/metyis-challenge-java.git
+3. Follow the path: src/test/java/pt/com/challenge/runner/Runner.java
+4. If you have mac brew install chromedriver
+5. If you have windows, check your settings -> About Chrome -> Check Version Abour your chrome
 
