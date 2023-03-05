@@ -24,6 +24,6 @@
 3. Follow the path: src/test/java/pt/com/challenge/runner/Runner.java
 4. If you have mac brew install chromedriver, If you do not have brew https://docs.brew.sh/Installation
 5. If you have windows, check your settings -> About Chrome -> Check Version Abour your chrome
-6. https://chromedriver.chromium.org/downloads Download the right version
+6. In the link https://chromedriver.chromium.org/downloads Download the right version
 7. Change in folder src/main/resources/webdriver, the webdriver.
 
