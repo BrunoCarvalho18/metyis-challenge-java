@@ -12,7 +12,7 @@
 - Java
 - Selenium
 
-## 🔤 **Design Patterns**
+## 🔤 **Design Pattern**
 
 - Page Factory
 
