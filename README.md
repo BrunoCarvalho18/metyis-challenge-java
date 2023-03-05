@@ -12,3 +12,5 @@
 - Java
 - Selenium
 
+## 🔤 **Design Patterns**
+
