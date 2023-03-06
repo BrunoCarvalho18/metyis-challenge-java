@@ -12,6 +12,7 @@
 - Java
 - Selenium
 - Cucumber
+- JUnit
 
 ## 🔤 **Design Pattern**
 
