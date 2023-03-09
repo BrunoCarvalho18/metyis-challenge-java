@@ -4,6 +4,8 @@ import java.time.Duration;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Driver {
@@ -43,7 +45,10 @@ public class Driver {
 		}
 
 		if (driver == null) {
-			driver = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--remote-allow-origins=*");
+			driver = new ChromeDriver(options);
+			
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			driver.manage().window().maximize();
 		}
